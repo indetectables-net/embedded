@@ -53,7 +53,7 @@ $ qemu-img create -f qcow2 hda.qcow 10G
 
 ```
 $ qemu-system-mipsel -M malta \
- -cdrom debian-mips-netinst.iso \
+ -cdrom debian-mipsel-netinst.iso \
  -hda hda.qcow \
  -append "root=/dev/sda1 nokaslr" \
  -kernel vmlinux-malta \
