@@ -73,12 +73,12 @@ If you use the original file the Debian installer will return!.
 Copy initrd.img
 ```
 sudo apt-get install libguestfs-tools
-guestmount -a hda.qcow -i /mnt
+sudo guestmount -a hda.qcow -i /mnt
 
-cp /mnt/boot/initrd.img-4.19.0-10-4kc-malta initrd-boot.img
+sudo cp /mnt/boot/initrd.img-4.19.0-10-4kc-malta initrd-boot.img
 sudo chown "$USER":"$USER" initrd-boot.img
 
-umount /mnt
+sudo umount /mnt
 ```
 
 Run VM
