@@ -38,7 +38,7 @@ Buster (current): http://cdimage.debian.org/cdimage/release/current/mipsel/iso-c
 Stretch: http://cdimage.debian.org/cdimage/archive/9.13.0/mipsel/iso-cd/
 
 ```
-$ wget https://cdimage.debian.org/debian-cd/current/mips/iso-cd/debian-10.5.0-mips-netinst.iso -O debian-mips-netinst.iso
+$ wget https://cdimage.debian.org/debian-cd/current/mipsel/iso-cd/debian-10.5.0-mipsel-netinst.iso -O debian-mipsel-netinst.iso
 ```
 
 
