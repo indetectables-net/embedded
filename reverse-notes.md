@@ -9,6 +9,18 @@ $ apt update && apt upgrade -y
 $ apt install build-essential cmake git gdb python python-dev python-pip python3 python3-dev python3-pip net-tools
 ```
 
+**Install Firmware Mod Kit**
+```
+$ sudo apt-get install git build-essential zlib1g-dev liblzma-dev python-magic bsdmainutils
+$ git clone https://github.com/rampageX/firmware-mod-kit fmk-tool
+
+# extract
+fmk-tool/extract-firmware.sh fw.bin
+
+# build new firmware from extracted data
+fmk-tool/build-firmware.sh fmk/
+```
+
 **Install Radare**
 ```
 $ git clone https://github.com/radareorg/radare2.git && cd radare2
