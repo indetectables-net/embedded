@@ -94,6 +94,18 @@ $ qemu-system-mipsel -M malta \
 ```
 
 
+**Enable SSH root login**
+
+```
+$ nano /etc/ssh/sshd_config
+
+# add this to file
+# PermitRootLogin yes
+
+$ /etc/init.d/ssh restart
+```
+
+
 # References
 
 - https://cjhackerz.net/posts/arm-emulated-environment-iotsec-qemu/
