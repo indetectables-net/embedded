@@ -90,9 +90,7 @@ $ qemu-system-mipsel -M malta \
  -m 512 \
  -nographic \
  -no-reboot \
- -net nic -net user,\
- hostfwd=tcp::10022-:22,\
- hostfwd=tcp::10080-:80
+ -net nic -net user,hostfwd=tcp::10022-:22,hostfwd=tcp::10080-:80
 ```
 
 
