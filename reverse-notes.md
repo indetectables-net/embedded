@@ -11,7 +11,7 @@ $ apt install build-essential cmake git gdb python python-dev python-pip python3
 
 **Install Firmware Mod Kit**
 ```
-$ sudo apt-get install git build-essential zlib1g-dev liblzma-dev python-magic bsdmainutils
+$ apt install git build-essential zlib1g-dev liblzma-dev python-magic bsdmainutils
 $ git clone https://github.com/rampageX/firmware-mod-kit fmk-tool
 
 # extract
