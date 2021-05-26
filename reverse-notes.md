@@ -39,13 +39,13 @@ $ tar -czvf rootfs.tar.gz rootfs/
 2. Share file with http
 ```
 # with python
-$ python3 -m http.server 80
+$ python3 -m http.server 8000
 
 # with php
 $ php -S 0.0.0.0:8000
 
 # with node
-$ npx http-server ./
+$ npx http-server ./ --port 8000
 ```
 
 See ip of real machine
