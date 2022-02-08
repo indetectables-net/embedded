@@ -1,0 +1,10 @@
+estos programas no tienen paginas oficiales ni estan en github
+
+ASprogrammer 
+http://forum.easyelectronics.ru/viewtopic.php?f=17&t=10947
+
+NEOprogrammer (es un fork de ASprogrammer)
+https://4pda.to/forum/index.php?showtopic=884713&st=3840#entry96411343
+
+aca podemos encontraros para bajar y actualizados
+https://khandishnetwork.com/2020/07/07/ch341a-programmer-new-software-update/
