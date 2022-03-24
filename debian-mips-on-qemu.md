@@ -19,9 +19,9 @@ http://ftp.debian.org/debian/dists/stretch/main/installer-{variant}/current/imag
 
 **Download initrd & vmlinux**
 
-Download from
-Buster (current): http://ftp.debian.org/debian/dists/buster/main/installer-mipsel/current/images/malta/netboot/
-Stretch: http://ftp.debian.org/debian/dists/stretch/main/installer-mipsel/current/images/malta/netboot/
+Download from <br>
+**Buster (current):** http://ftp.debian.org/debian/dists/buster/main/installer-mipsel/current/images/malta/netboot/ <br>
+**Stretch:** http://ftp.debian.org/debian/dists/stretch/main/installer-mipsel/current/images/malta/netboot/ <br>
 
 ```
 $ wget http://ftp.debian.org/debian/dists/buster/main/installer-mipsel/current/images/malta/netboot/initrd.gz -O initrd.gz
@@ -33,9 +33,9 @@ $ wget http://ftp.debian.org/debian/dists/buster/main/installer-mipsel/current/i
 
 Important! The initrd already acts as an installer so this step is optional
 
-Download mipsel netinst from
-Buster (current): http://cdimage.debian.org/cdimage/release/current/mipsel/iso-cd/
-Stretch: http://cdimage.debian.org/cdimage/archive/9.13.0/mipsel/iso-cd/
+Download mipsel netinst from <br>
+**Buster (current):** http://cdimage.debian.org/cdimage/release/current/mipsel/iso-cd/ <br>
+**Stretch:** http://cdimage.debian.org/cdimage/archive/9.13.0/mipsel/iso-cd/ <br>
 
 ```
 $ wget https://cdimage.debian.org/debian-cd/current/mipsel/iso-cd/debian-10.5.0-mipsel-netinst.iso -O debian-mipsel-netinst.iso
