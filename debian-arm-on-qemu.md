@@ -18,9 +18,9 @@ http://ftp.debian.org/debian/dists/stretch/main/installer-{variant}/current/imag
 
 **Download initrd & vmlinux**
 
-Download from
-Buster (current): http://ftp.debian.org/debian/dists/buster/main/installer-armhf/current/images/netboot/
-Stretch: http://ftp.debian.org/debian/dists/stretch/main/installer-armhf/current/images/netboot/
+Download from <br>
+**Buster (current):** http://ftp.debian.org/debian/dists/buster/main/installer-armhf/current/images/netboot/ <br>
+**Stretch:** http://ftp.debian.org/debian/dists/stretch/main/installer-armhf/current/images/netboot/ <br>
 
 ```
 $ wget http://ftp.debian.org/debian/dists/buster/main/installer-armhf/current/images/netboot/initrd.gz -O initrd.gz
@@ -32,9 +32,9 @@ $ wget http://ftp.debian.org/debian/dists/buster/main/installer-armhf/current/im
 
 Important! The initrd already acts as an installer so this step is optional
 
-Download mipsel netinst from
-Buster (current): http://cdimage.debian.org/cdimage/release/current/armhf/iso-cd/
-Stretch: http://cdimage.debian.org/cdimage/archive/9.13.0/armhf/iso-cd/
+Download mipsel netinst from <br>
+**Buster (current):** http://cdimage.debian.org/cdimage/release/current/armhf/iso-cd/ <br>
+**Stretch:** http://cdimage.debian.org/cdimage/archive/9.13.0/armhf/iso-cd/ <br>
 
 ```
 $ wget https://cdimage.debian.org/debian-cd/current/armhf/iso-cd/debian-10.5.0-armhf-netinst.iso -O debian-armhf-netinst.iso
