@@ -9,8 +9,43 @@ $ apt update && apt upgrade -y
 $ apt install build-essential cmake git gdb python python-dev python-pip python3 python3-dev python3-pip net-tools
 ```
 
-**Install Firmware Mod Kit**
+**Binwalk**
 ```
+# install
+$ git clone https://github.com/ReFirmLabs/binwalk
+$ cd binwalk
+$ sudo python3 setup.py install
+
+
+# binwalk automatic dependencies install
+$ sudo ./deps.sh
+
+# binwalk manual dependencies install
+$ sudo apt-get install mtd-utils gzip bzip2 tar arj lhasa p7zip p7zip-full cabextract squashfs-tools sleuthkit default-jdk lzop srecord
+
+# Install sasquatch to extract non-standard SquashFS images
+sudo apt-get install zlib1g-dev liblzma-dev liblzo2-dev
+git clone https://github.com/devttys0/sasquatch
+cd sasquatch && ./build.sh
+
+# Install jefferson to extract JFFS2 file systems
+sudo pip install cstruct
+git clone https://github.com/sviehb/jefferson
+cd jefferson && sudo python3 setup.py install
+
+# Install ubi_reader to extract UBIFS file systems
+sudo apt-get install liblzo2-dev python-lzo
+git clone https://github.com/jrspruitt/ubi_reader
+cd ubi_reader && sudo python3 setup.py install
+
+
+# extract
+fmk-tool/extract-firmware.sh fw.bin
+```
+
+**Firmware Mod Kit**
+```
+# install
 $ apt install git build-essential zlib1g-dev liblzma-dev python-magic bsdmainutils
 $ git clone https://github.com/rampageX/firmware-mod-kit fmk-tool
 
