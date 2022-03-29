@@ -40,7 +40,7 @@ cd ubi_reader && sudo python3 setup.py install
 
 
 # extract
-fmk-tool/extract-firmware.sh fw.bin
+binwalk fw.bin -e --preserve-symlinks
 ```
 
 **Firmware Mod Kit**
