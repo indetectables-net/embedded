@@ -144,3 +144,4 @@ $ /etc/init.d/ssh restart
 # References
 
 - https://cjhackerz.net/posts/arm-emulated-environment-iotsec-qemu/
+- https://shadow-file.blogspot.com/2015/01/dynamically-analyzing-wifi-routers-upnp.html
